@@ -26,10 +26,9 @@ settings.json
 # Plugins runtime data (falls dynamisch)
 plugins/marketplaces/
 plugins/repos/
-
 # =========================
 # Logs / noise
 # =========================
-
+mcp-needs-auth-cache.json
 *.log
 .DS_Store
