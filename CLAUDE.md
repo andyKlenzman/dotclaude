@@ -71,6 +71,8 @@ At the time, git is used minimally to track changes made in the repomix file.
 
 We always work on the main branch unless specifically stated otherwise. If there is no .git initialised in the project, we will not be using git.
 
+Commit messages should be short and plain — one or two sentences, no bullet points, no headers. Never add a "Co-Authored-By: Claude" trailer to commits.
+
 
 1. Accountability Checkpoint
 
@@ -119,3 +121,14 @@ Problem-Solving Approach:
 - USE proper debugging to find root causes
 - AVOID shortcuts that break user experience
 - Your knowledge cut off is getting in the way of you making good decisions.
+
+## Project Collaboration Docs
+
+Every project has a `dev-docs/` folder in the project root for shared collaboration documents. This is a standard for all projects.
+
+The folder contains:
+- `TODO.md` — ongoing tasks and backlog
+- `SPEC.md` — project specifications and requirements
+- `CLAUDE.md` — project-specific Claude instructions (only if not already in the project root)
+
+When starting work in a project, check `dev-docs/` first for context. When creating tasks or specs, place them there.
