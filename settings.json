@@ -11,5 +11,6 @@
       }
     }
   },
-  "voiceEnabled": true
+  "voiceEnabled": true,
+  "language": "german"
 }
