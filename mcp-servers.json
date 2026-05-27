@@ -1,0 +1,13 @@
+{
+  "servers": [
+    {
+      "name": "repomix",
+      "scope": "user",
+      "command": "repomix",
+      "args": ["--mcp"],
+      "install": "npm install -g repomix",
+      "setup": "claude mcp add -s user repomix -- repomix --mcp"
+    }
+  ],
+  "note": "This is a reference document. Run the 'setup' command for each server to configure on a new machine."
+}

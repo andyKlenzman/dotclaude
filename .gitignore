@@ -13,23 +13,20 @@ todos/
 projects/
 plugins/
 tasks/
+telemetry/
 
 history.jsonl
 
 # =========================
-# Optional (je nach Setup)
+# Plugins runtime data
 # =========================
-
-# Lokale Settings (optional ignorieren)
-settings.json
-
-# Plugins runtime data (falls dynamisch)
 plugins/marketplaces/
 plugins/repos/
+
 # =========================
 # Logs / noise
 # =========================
 mcp-needs-auth-cache.json
 *.log
 .DS_Store
-*.json
+.last-cleanup

@@ -1,0 +1,15 @@
+{
+  "enabledPlugins": {
+    "vanta-mcp-plugin@claude-plugins-official": true,
+    "scenario-testing@2389-research-marketplace": true
+  },
+  "extraKnownMarketplaces": {
+    "2389-research-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "2389-research/claude-plugins"
+      }
+    }
+  },
+  "voiceEnabled": true
+}
